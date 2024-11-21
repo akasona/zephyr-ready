@@ -1,7 +1,7 @@
 # See https://github.com/zephyrproject-rtos/docker-image
-FROM zephyrprojectrtos/ci:v0.26.18
+FROM zephyrprojectrtos/ci:v0.27.4
 
-ARG ZEPHYR_VERSION=v3.7.0
+ARG ZEPHYR_VERSION=v4.0.0
 ARG ZEPHYR_PROJECT=/home/user/zephyrproject
 
 USER user
